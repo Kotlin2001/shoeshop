@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+    <category>
+	    <pattern>Product</pattern>
+	    <template>
+	    <button>
+	        <text>What are the brands for sale?</text>
+	        <postback>brandsforsale</postback>
+        </button>
+        
+        <button>
+	        <text>Do you sell Converse brand shoes?</text>
+	        <postback>converse</postback>
+        </button>
+         
+         <button>
+             <text>I want to check stock online</text>
+             <postback>stockonline</postback>
+         </button>
+         
+         
+         <button>
+             <text>When will I receive my pre-order?</text>
+             <postback>preorder</postback>
+         </button>
+         
+         <button>
+             <text>How can I find product launch information?</text>
+             <postback>productinfo</postback>
+         </button>
+         
+         <button>
+             <text>Where can I find your size guide and care instructions?</text>
+             <postback>sizeguide</postback>
+         </button>
+         
+         <button>
+             <text>Can you tell me if you’re getting an item back in stock?</text>
+             <postback>tellstock</postback>
+         </button>
+
+        <button>
+             <text>Can I check if stores near me have the item I'm looking for?</text>
+             <postback>storesnear</postback>
+         </button>
+         
+         <button>
+         <text>Back to main menu</text>
+         <postback>mainmenu</postback>
+         </button>
+          
+	   </template> 
+    </category>
+   
+   
+  
+    <category>
+        <pattern>brandsforsale</pattern>
+        <template>We are selling a variety of well-known brands such as Nike, Adidas, Puma, Under Armour, and many more.
+             <button>
+              <text>Back</text>
+              <postback>Product</postback>
+          </button>
+        </template>
+        
+    </category>
+    
+    <category>
+        <pattern>converse</pattern>
+        <template>Yes, there are different models and even different high cuts and low cuts.
+          <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>stockonline</pattern>
+        <template>Before you contact our Customer team to advise on stock online, please ensure you've checked the item you require isn't showing as in stock on the website.
+        <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>preorder</pattern>
+        <template>All items that are available for Pre-Order will be despatched on the day of release.
+           <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+        
+        </template>
+    </category>
+    
+    <category>
+        <pattern>productinfo</pattern>
+        <template>To be the first to hear about our latest launches keep an eye out on our social channels, as they provide the most relevant information to keep you in the loop.
+           <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>sizeguide</pattern>
+        <template>You can find a size guide and care instructions on any of our product pages. <br/>
+           Please click on size guide, to get the relevant brand and gender to find the information you require.
+        <link>
+            <text>size guide</text> 
+            <url>https://www.jdsports.my/customer-service/size-guide/</url>
+        </link>
+        
+        <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+       
+        </template> 
+    </category>
+    
+    <category>
+        <pattern>tellstock</pattern>
+        <template>Our Customer Care team. have limited information on restocks, the best place to find out when new product is landed is via our social media channels.
+        <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+        
+        </template>
+    </category>
+   
+   <category>
+        <pattern>storesnear</pattern>
+        <template>To check if your local store has an item in stock then please contact our Customer Service team who will be happy to help.
+        <button>
+              <text>Back to menu</text>
+              <postback>Product</postback>
+          </button>
+        </template>
+    </category>
+    
+
+</aiml>

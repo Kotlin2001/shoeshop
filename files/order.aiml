@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	  <category>
+	    <pattern>Order</pattern>
+	    <template>
+	    <button>
+	        <text>Can I change my order?</text>
+	        <postback>changeorder</postback>
+        </button>
+        
+         <button>
+	        <text>How to cancel order?</text>
+	        <postback>cancelorder</postback>
+        </button>
+	  
+        <button>
+            <text>Why I can't see the cancel button on the page?</text>
+            <postback>cancelbutton</postback>
+        </button>
+
+         <button>
+             <text>How do I check my order status?</text>
+             <postback>checkorder</postback>
+         </button>
+         
+         <button>
+             <text>Part of my order is missing?</text>
+             <postback>missingorder</postback>
+         </button>
+ 
+         
+         <button>
+             <text>Can I change the size/colour of the product I've ordered?</text>
+             <postback>sizecolour</postback>
+         </button>
+     <button>
+         <text>Back to main menu</text>
+         <postback>mainmenu</postback>
+     </button>
+     </template> 
+        
+</category>
+
+  
+  <category>
+        <pattern>changeorder</pattern>
+        <template>You can't make changes,  but you can cancel order within 30 minutes of placing it.
+         <button>
+              <text>Back to menu</text>
+              <postback>Order</postback>
+          </button>
+        
+        </template>
+    </category>
+    
+    <category>
+        <pattern>cancelorder</pattern>
+        <template>To cancel an order, first go to your order pages.If you're not signed in, you'll need to enter the order number from your confirmation email, along with your email address. 
+        <br/>Next, open the order you want to cancel, then tap or click the "Cancel" button and follow the prompts.
+          <button>
+              <text>Back to menu</text>
+              <postback>Order</postback>
+          </button>
+        
+        </template>
+    </category>
+    
+    <category>
+        <pattern>cancelbutton</pattern>
+        <template>If you don't see the cancel button, it has been more than 30 minutes since your order was placed, and it can no longer be cancelled.<br/>
+        But don't worry—you can return the items within 30 days.
+         <button>
+              <text>Back to menu</text>
+              <postback>Order</postback>
+          </button>
+        </template>
+    </category>
+	
+	<category>
+	    <pattern>checkorder</pattern>
+	    <template>You can check your order status online at any time.
+	     <button>
+              <text>Back to menu</text>
+              <postback>Order</postback>
+          </button>
+	    </template>
+    </category>
+	
+	<category>
+	    <pattern>missingorder</pattern>
+	    <template>In some cases, we are unable to ship all of the items you have ordered.<br/>
+	    If there are any missing items in your order, we will refund any money for the unshipped items.
+	     <button>
+              <text>Back to menu</text>
+              <postback>Order</postback>
+          </button>
+	    
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>sizecolour</pattern>
+        <template>Once an order's been placed we unable to cancel or add or change or amend any products from your order.
+         <button>
+              <text>Back to menu</text>
+              <postback>Order</postback>
+          </button>
+        
+        </template>
+    </category>
+    
+	
+</aiml>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+<!-- HI - greetings redirect to XPROMPT -->
+<category>
+  <pattern>HI</pattern>
+  <template>Hello there! <srai>XPROMPT</srai>
+  <srai>mainmenu</srai>
+  </template>
+</category>
+
+ <category>
+  <pattern>Hello</pattern>
+  <template>Hi there! <srai>XPROMPT</srai>
+  <srai>mainmenu</srai>
+  </template>
+</category>
+  
+ 
+<category>
+  <pattern>Helo</pattern>
+  <template>Hi there! <srai>XPROMPT</srai>
+  <srai>mainmenu</srai>
+</template>
+</category>
+
+ <category>
+  <pattern>XPROMPT</pattern>
+  <template>   
+    <random>
+      <li>Nice to meet you! What can I help you?😀</li>
+      <li>What are your question would you like to ask me😀?</li>
+    </random>
+    <delay>3</delay>
+</template>
+</category>
+
+<category>
+    <pattern>mainmenu</pattern>
+    <template>
+       This the main menu for the JAD Sport chat bots
+    <button>
+        <text>Product</text>
+        <postback>product</postback>
+    </button>
+    
+     <button>
+        <text>Order</text>
+        <postback>order</postback>
+    </button>
+    
+   <button>
+        <text>Delivery</text>
+        <postback>delivery</postback>
+    </button>
+    
+     <button>
+        <text>Payment</text>
+        <postback>payment</postback>
+    </button>
+    
+     <button>
+        <text>Return</text>
+        <postback>return</postback>
+    </button> 
+    
+    </template>
+</category>
+
+
+
+
+
+</aiml>
