@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+
+<category>
+    <pattern>Return
+</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://orderhive.files.wordpress.com/2014/12/return-refund-image.jpg</image>
+        <title>Refund</title>
+        <subtitle>Here is the frequently asked question about Return</subtitle>
+        <button>
+            <text>How do refund work for cancelled order?</text>
+            <postback>refundwork</postback>
+        </button>       
+        
+        <button>
+            <text>When will I be refunded?</text>
+            <postback>whenrefund</postback>
+        </button>     
+        
+        <button>
+            <text>How long will the refund take?</text>
+            <postback>howlongrefund</postback>
+        </button>
+        
+         <button>
+            <text>Will you refund my delivery charges?</text>
+            <postback>refunddeliverycharges</postback>
+        </button>
+        
+        
+         <button>
+            <text>Can I request for a refund for item(s) bought in-store?</text>
+            <postback>refundinstore</postback>
+        </button>
+        
+        
+    <button>
+         <text>Back to main menu</text>
+         <postback>MAINMENU</postback>
+     </button>
+     
+    </card>
+
+</carousel></template>
+</category>
+
+    <category>
+        <pattern>refundwork</pattern>
+        <template>If you cancel an order, we'll automatically start processing your refund for most payment options </template>
+    </category>
+    
+     <category>
+        <pattern>whenrefund</pattern>
+        <template>Once we receive and process your return, we'll inspect it and issue a refund to the payment method you originally used. </template>
+    </category>
+    
+     <category>
+        <pattern>howlongrefund</pattern>
+        <template>It may take up to 4 working days for the funds to show in your account </template>
+    </category>
+    
+     <category>
+        <pattern>refunddeliverycharges</pattern>
+        <template>If the item that you returned has been certified damaged or faulty, or isn’t what you ordered upon receiving, you will receive a full refund.
+        <br/>Delivery charge is not refundable if the return is due to change of mind, unsuitable or no reason. </template>
+    </category>
+    
+     <category>
+        <pattern>refundinstore</pattern>
+        <template>We do not offer any form of refund. You may, however, exchange your products within 7 days of purchase. </template>
+    </category>
+    
+</aiml>

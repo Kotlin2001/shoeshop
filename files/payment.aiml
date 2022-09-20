@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Payment</pattern>
+	    <template>
+	<carousel>
+    <card>
+        <image>https://finance.zohocorp.com/wp-content/uploads/2019/01/payment-service-providers-1-1024x512.png</image>
+        <title>Payment</title>
+        <subtitle>Here is the frequently asked question about Payment</subtitle>
+	        <button>
+	        <text>What payment methods can the system support?</text>
+	        <postback>paymentmethods</postback>
+        </button>
+        
+         <button>
+	        <text>How do I use my voucher code?</text>
+	        <postback>voucher</postback>
+        </button>
+	  
+        <button>
+            <text>Are all products inclusive of taxes and SST?</text>
+            <postback>taxes</postback>
+        </button>
+     <button>
+         <text>Back to main menu</text>
+         <postback>MAINMENU</postback>
+     </button>
+	 </card>
+
+</carousel> </template>
+</category>
+    
+    <category>
+        <pattern>voucher </pattern>
+        <template>Under the order summary click "Enter promo code" then type your voucher code into the box and click 'Apply'
+    <button>
+        <text>Back to menu</text>
+        <postback>Payment</postback>
+    </button></template>
+    </category>
+    
+    <category>
+
+    <pattern>taxes</pattern>
+    <template>Price inclusive SST</template>
+</category>
+
+<category>
+    <pattern>paymentmethods</pattern>
+    <template>
+<card>
+    <image>https://senangpay.my/wp-content/uploads/2021/04/banner-bahan-07.png</image>
+    <title>Payment Method Supported</title>
+    <subtitle>Debit/Credit Card, FPX Online Banking, Grabpay, Boost, TNG eWallet.</subtitle>
+            <button>
+        <text>Back to menu</text>
+        <postback>Payment</postback>
+    </button>
+</card></template>
+</category>
+</aiml>

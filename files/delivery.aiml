@@ -1,117 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
-		
+<!--Qeustion of delivery -->		
 	  <category>
 	    <pattern>Delivery</pattern>
 	    <template>
+	  <carousel>
+    <card>
+        <image>https://jungleworks.com/wp-content/uploads/2021/08/Online_Shoping_29-1024x819.jpg</image>
+            <title>Delivery</title>
+        <subtitle>Here is the frequently asked question about Delivery</subtitle>
 	    <button>
 	        <text>Why I can't change my delivery address?</text>
 	        <postback>changeaddress</postback>
         </button>
         
          <button>
-	        <text>How to cancel order?</text>
-	        <postback>cancelorder</postback>
+	        <text>What are the delivery options?</text>
+	        <postback>deliveryoption</postback>
         </button>
 	  
         <button>
-            <text>What are the delivery options?</text>
-            <postback>deliveryoption</postback>
+            <text>Can I deliver goods out of Malaysia?</text>
+            <postback>goodsmalaysia</postback>
         </button>
 
          <button>
-             <text>How do I check my order status?</text>
-             <postback>checkorder</postback>
+             <text>What should I do if I received the wrong product(s)?</text>
+             <postback>wrongproduct</postback>
          </button>
          
          <button>
-             <text>Part of my order is missing?</text>
-             <postback>missingorder</postback>
+             <text>Can I track my order?</text>
+             <postback>trackmyorder</postback>
          </button>
  
          
          <button>
-             <text>Can I change the size/colour of the product I've ordered?</text>
-             <postback>sizecolour</postback>
+             <text>Where do you ship from?</text>
+             <postback>shipfrom</postback>
          </button>
      <button>
          <text>Back to main menu</text>
          <postback>mainmenu</postback>
      </button>
+     </card>
+
+</carousel>
      </template> 
         
 </category>
-
+<!--Answer of delivery -->
   
   <category>
-        <pattern>changeorder</pattern>
-        <template>You can't make changes,  but you can cancel order within 30 minutes of placing it.
+        <pattern>changeaddress</pattern>
+        <template>Once an order's been completed we are unable to change your delivery address.
          <button>
               <text>Back to menu</text>
-              <postback>Order</postback>
+              <postback>Delivery</postback>
           </button>
         
         </template>
     </category>
     
     <category>
-        <pattern>cancelorder</pattern>
-        <template>To cancel an order, first go to your order pages.If you're not signed in, you'll need to enter the order number from your confirmation email, along with your email address. 
-        <br/>Next, open the order you want to cancel, then tap or click the "Cancel" button and follow the prompts.
+        <pattern>deliveryoption</pattern>
+        <template>We offer standard and experess option.  Standard are free and Express will be charge for RM 75.
           <button>
               <text>Back to menu</text>
-              <postback>Order</postback>
+              <postback>Delivery</postback>
           </button>
         
         </template>
     </category>
     
     <category>
-        <pattern>cancelbutton</pattern>
-        <template>If you don't see the cancel button, it has been more than 30 minutes since your order was placed, and it can no longer be cancelled.<br/>
-        But don't worry—you can return the items within 30 days.
+        <pattern>goodsmalaysia</pattern>
+        <template>Our online shop will only ship within Malaysia, with the exception of Labuan, Langkawi and Tioman.
          <button>
               <text>Back to menu</text>
-              <postback>Order</postback>
+              <postback>Delivery</postback>
           </button>
         </template>
     </category>
 	
 	<category>
-	    <pattern>checkorder</pattern>
-	    <template>You can check your order status online at any time.
+	    <pattern>wrongproduct</pattern>
+	    <template>If you placed your order from our online shop and received the wrong product, please kindly contact us for further assistance.
 	     <button>
               <text>Back to menu</text>
-              <postback>Order</postback>
+              <postback>Delivery</postback>
           </button>
 	    </template>
     </category>
 	
 	<category>
-	    <pattern>missingorder</pattern>
-	    <template>In some cases, we are unable to ship all of the items you have ordered.<br/>
-	    If there are any missing items in your order, we will refund any money for the unshipped items.
+	    <pattern>trackmyorder</pattern>
+	    <template>All our home delivery orders are trackable.<br/>
+	    You will receive a despatched email with a tracking link on for your order, alternativiley you can log in to your account and view the tracking in your order history.
 	     <button>
               <text>Back to menu</text>
-              <postback>Order</postback>
+              <postback>Delivery</postback>
           </button>
 	    
 	    </template>
     </category>
     
     <category>
-        <pattern>sizecolour</pattern>
-        <template>Once an order's been placed we unable to cancel or add or change or amend any products from your order.
+        <pattern>shipfrom</pattern>
+        <template>Our orders are shipped locally in Malaysia.
+         <br/>No customs charges applied
          <button>
               <text>Back to menu</text>
-              <postback>Order</postback>
+              <postback>Delivery</postback>
           </button>
         
         </template>
     </category>
-    
-	
 </aiml>
 	
 	

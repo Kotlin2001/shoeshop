@@ -5,6 +5,11 @@
 	  <category>
 	    <pattern>Order</pattern>
 	    <template>
+	 <carousel>
+    <card>
+        <image>https://img.freepik.com/premium-vector/online-shop-store-logo-design-concept-mobile_502185-125.jpg?w=2000</image>
+            <title>Order</title>
+        <subtitle>Here is the frequently asked question about Order</subtitle>
 	    <button>
 	        <text>Can I change my order?</text>
 	        <postback>changeorder</postback>
@@ -17,7 +22,7 @@
 	  
         <button>
             <text>Why I can't see the cancel button on the page?</text>
-            <postback>cancelbutton</postback>
+            <postback>cantseebutton</postback>
         </button>
 
          <button>
@@ -37,9 +42,11 @@
          </button>
      <button>
          <text>Back to main menu</text>
-         <postback>mainmenu</postback>
+         <postback>MAINMENU</postback>
      </button>
-     </template> 
+ </card>
+
+</carousel> </template> 
         
 </category>
 
@@ -54,6 +61,9 @@
         
         </template>
     </category>
+
+<category><pattern>Change Order, change, Change, change order,</pattern><template><srai>CHANGEORDER</srai></template></category>
+
     
     <category>
         <pattern>cancelorder</pattern>
@@ -68,7 +78,7 @@
     </category>
     
     <category>
-        <pattern>cancelbutton</pattern>
+        <pattern>cantseebutton</pattern>
         <template>If you don't see the cancel button, it has been more than 30 minutes since your order was placed, and it can no longer be cancelled.<br/>
         But don't worry—you can return the items within 30 days.
          <button>
@@ -99,7 +109,7 @@
 	    
 	    </template>
     </category>
-    
+ 
     <category>
         <pattern>sizecolour</pattern>
         <template>Once an order's been placed we unable to cancel or add or change or amend any products from your order.

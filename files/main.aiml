@@ -3,11 +3,17 @@
     
 <!-- HI - greetings redirect to XPROMPT -->
 <category>
+    <pattern></pattern>
+    <template>Welcome to JAD Sport</template>
+</category>
+
+<category>
   <pattern>HI</pattern>
   <template>Hello there! <srai>XPROMPT</srai>
-  <srai>mainmenu</srai>
+  <srai>MAINMENU</srai>
   </template>
 </category>
+
 
  <category>
   <pattern>Hello</pattern>
@@ -15,8 +21,8 @@
   <srai>mainmenu</srai>
   </template>
 </category>
-  
- 
+
+
 <category>
   <pattern>Helo</pattern>
   <template>Hi there! <srai>XPROMPT</srai>
@@ -36,7 +42,7 @@
 </category>
 
 <category>
-    <pattern>mainmenu</pattern>
+    <pattern>MAINMENU</pattern>
     <template>
        This the main menu for the JAD Sport chat bots
     <button>
@@ -66,7 +72,6 @@
     
     </template>
 </category>
-
 
 
 
