@@ -47,22 +47,22 @@
        This the main menu for the JAD Sport chat bots
     <button>
         <text>Product</text>
-        <postback>product</postback>
+        <postback>productmenu</postback>
     </button>
     
      <button>
         <text>Order</text>
-        <postback>order</postback>
+        <postback>ordermenu</postback>
     </button>
     
    <button>
         <text>Delivery</text>
-        <postback>delivery</postback>
+        <postback>deliverymenu</postback>
     </button>
     
      <button>
         <text>Payment</text>
-        <postback>payment</postback>
+        <postback>PaymentMenu</postback>
     </button>
     
      <button>

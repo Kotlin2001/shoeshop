@@ -2,12 +2,12 @@
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
 	<category>
-	    <pattern>Payment</pattern>
+	    <pattern>Paymentmenu</pattern>
 	    <template>
 	<carousel>
     <card>
         <image>https://finance.zohocorp.com/wp-content/uploads/2019/01/payment-service-providers-1-1024x512.png</image>
-        <title>Payment</title>
+        <title>PaymentMenu</title>
         <subtitle>Here is the frequently asked question about Payment</subtitle>
 	        <button>
 	        <text>What payment methods can the system support?</text>
@@ -32,6 +32,72 @@
 </carousel> </template>
 </category>
     
+    <category>
+        <pattern>VOUCHER</pattern>
+        <template><srai>voucher</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ VOUCHER</pattern>
+        <template><srai>voucher</srai></template>
+    </category>
+    
+    <category>
+        <pattern>VOUCHER *</pattern>
+        <template><srai>voucher</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ VOUCHER *</pattern>
+    <template><srai>voucher</srai></template>
+    </category>
+    
+    <category>
+        <pattern>TAX</pattern>
+        <template><srai>taxes</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ TAX</pattern>
+        <template><srai>taxes</srai></template>
+    </category>
+    
+    <category>
+        <pattern>TAX *</pattern>
+        <template><srai>taxes</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ TAX *</pattern>
+    <template><srai>taxes</srai></template>
+    </category>
+        
+    <category>
+        <pattern>PAYMENT METHOD</pattern>
+        <template><srai>paymentmethods</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ PAYMENT METHOD</pattern>
+        <template><srai>paymentmethods</srai></template>
+    </category>
+    
+    <category>
+        <pattern>PAYMENT METHOD *</pattern>
+        <template><srai>paymentmethods</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ PAYMENT METHOD *</pattern>
+    <template><srai>paymentmethods</srai></template>
+    </category>
+           
+        
+        
+        
     <category>
         <pattern>voucher </pattern>
         <template>Under the order summary click "Enter promo code" then type your voucher code into the box and click 'Apply'

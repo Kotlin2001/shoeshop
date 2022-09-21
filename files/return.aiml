@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
 
 <category>
-    <pattern>Return
+    <pattern>Returnmenu
 </pattern>
     <template>
 <carousel>
@@ -47,6 +47,118 @@
 
 </carousel></template>
 </category>
+
+    <category>
+        <pattern>HOW TO REFUND  </pattern>
+        <template><srai>refundwork</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ HOW TO REFUND </pattern>
+        <template><srai>refundwork</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HOW TO REFUND  *</pattern>
+        <template><srai>refundwork</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ HOW TO REFUND  *</pattern>
+    <template><srai>refundwork</srai></template>
+    </category>
+
+    
+    <category>
+        <pattern>WHEN REFUND </pattern>
+        <template><srai>whenrefund</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ WHEN REFUND</pattern>
+        <template><srai>whenrefund</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>WHEN REFUND *</pattern>
+        <template><srai>whenrefund</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ WHEN REFUND *</pattern>
+    <template><srai>whenrefund</srai></template>
+    </category>
+
+    
+    <category>
+        <pattern>HOW LONG REFUND</pattern>
+        <template><srai>howlongrefund</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ HOW LONG REFUND</pattern>
+        <template><srai>howlongrefund</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>HOW LONG REFUND *</pattern>
+        <template><srai>howlongrefund</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ HOW LONG REFUND *</pattern>
+    <template><srai>howlongrefund</srai></template>
+    </category>
+
+        
+        
+     <category>
+        <pattern>REFUND DELIVERY CHARGES</pattern>
+        <template><srai>refunddeliverycharges</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ REFUND DELIVERY CHARGES</pattern>
+        <template><srai>refunddeliverycharges</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>REFUND DELIVERY CHARGES *</pattern>
+        <template><srai>refunddeliverycharges</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ REFUND DELIVERY CHARGES *</pattern>
+    <template><srai>refunddeliverycharges</srai></template>
+    </category>
+
+
+ <category>
+        <pattern>REFUND IN STORE</pattern>
+        <template><srai>refundinstore</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ REFUND IN STORE</pattern>
+        <template><srai>refundinstore</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>REFUND IN STORE *</pattern>
+        <template><srai>refundinstore</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ REFUND IN STORE *</pattern>
+    <template><srai>refundinstore</srai></template>
+    </category>
+
 
     <category>
         <pattern>refundwork</pattern>

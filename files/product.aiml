@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
 
  <category>
-	    <pattern>Product</pattern>
+	    <pattern>Productmenu</pattern>
 	    <template>
 	 <carousel>
     <card>
@@ -59,6 +59,217 @@
 
 </carousel> </template> 
     </category>
+
+ <category>
+        <pattern>BRANDS FOR SALE</pattern>
+        <template><srai>brandsforsale</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ BRANDS FOR SALE</pattern>
+        <template><srai>brandsforsale</srai></template>
+    </category>
+    
+    <category>
+        <pattern>BRANDS FOR SALE *</pattern>
+        <template><srai>brandsforsale</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ BRANDS FOR SALE *</pattern>
+    <template><srai>brandsforsale</srai></template>
+    </category>
+           
+
+
+ <category>
+        <pattern>CONVERSE</pattern>
+        <template><srai>converse</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ CONVERSE</pattern>
+        <template><srai>converse</srai></template>
+    </category>
+    
+    <category>
+        <pattern> CONVERSE *</pattern>
+        <template><srai>converse</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ CONVERSE *</pattern>
+    <template><srai>converse</srai></template>
+    </category>
+           
+
+
+
+ <category>
+        <pattern> STOCK ONLINE</pattern>
+        <template><srai>stockonline</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ STOCK ONLINE</pattern>
+        <template><srai>stockonline</srai></template>
+    </category>
+    
+    <category>
+        <pattern>STOCK ONLINE *</pattern>
+        <template><srai>stockonline</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ STOCK ONLINE *</pattern>
+    <template><srai>stockonline</srai></template>
+    </category>
+     
+     
+           
+ <category>
+        <pattern> PRE ORDER </pattern>
+        <template><srai>preorder</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ PRE ORDER</pattern>
+        <template><srai>preorder</srai></template>
+    </category>
+    
+    <category> 
+        <pattern> PRE ORDER *</pattern>
+        <template><srai>preorder</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ PRE ORDER *</pattern>
+    <template><srai>preorder</srai></template>
+    </category>
+           
+ <category>
+        <pattern> PRE-ORDER </pattern>
+        <template><srai>preorder</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ PRE-ORDER</pattern>
+        <template><srai>preorder</srai></template>
+    </category>
+    
+    <category> 
+        <pattern> PRE-ORDER *</pattern>
+        <template><srai>preorder</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ PRE-ORDER *</pattern>
+    <template><srai>preorder</srai></template>
+    </category>
+           
+
+
+
+ <category>
+        <pattern>PRODUCT INFO</pattern>
+        <template><srai>productinfo</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ PRODUCT INFO</pattern>
+        <template><srai>productinfo</srai></template>
+    </category>
+    
+    <category>
+        <pattern>PRODUCT INFO *</pattern>
+        <template><srai>productinfo</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ PRODUCT INFO *</pattern>
+    <template><srai>productinfo</srai></template>
+    </category>
+            
+            
+            
+            
+ <category>
+        <pattern>SIZE GUIDE</pattern>
+        <template><srai>sizeguide</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ SIZE GUIDE</pattern>
+        <template><srai>sizeguide</srai></template>
+    </category>
+    
+    <category>
+        <pattern>SIZE GUIDE *</pattern>
+        <template><srai>sizeguide</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ SIZE GUIDE *</pattern>
+    <template><srai>sizeguide</srai></template>
+    </category>
+           
+
+
+ <category>
+        <pattern>TELL STOCK</pattern>
+        <template><srai>tellstock</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ TELL STOCK</pattern>
+        <template><srai>tellstock</srai></template>
+    </category>
+    
+    <category>
+        <pattern>TELL STOCK *</pattern>
+        <template><srai>tellstock</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ TELL STOCK *</pattern>
+    <template><srai>tellstock</srai></template>
+    </category>
+           
+
+
+ <category>
+        <pattern>CHECK STOCK IN STOCK</pattern>
+        <template><srai>storesnear</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ CHECK STOCK IN STOCK</pattern>
+        <template><srai>storesnear</srai></template>
+    </category>
+    
+    <category>
+        <pattern> CHECK STOCK IN STOCK *</pattern>
+        <template><srai>storesnear</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ CHECK STOCK IN STOCK *</pattern>
+    <template><srai>storesnear</srai></template>
+    </category>
+           
+
+
+
+
 
 
 

@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
 <!--Qeustion of delivery -->		
 	  <category>
-	    <pattern>Delivery</pattern>
+	    <pattern>Deliverymenu</pattern>
 	    <template>
 	  <carousel>
     <card>
@@ -50,6 +50,146 @@
      </template> 
         
 </category>
+
+    <category>
+        <pattern>CHANGE DELIVERY ADDRESS </pattern>
+        <template><srai>changeaddress</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ CHANGE DELIVERY ADDRESS</pattern>
+        <template><srai>changeaddress</srai></template>
+    </category>
+    
+    <category>
+        <pattern>CHANGE DELIVERY ADDRESS *</pattern>
+        <template><srai>changeaddress</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ CHANGE DELIVERY ADDRESS *</pattern>
+    <template><srai>changeaddress</srai></template>
+    </category>
+
+    
+    <category>
+        <pattern>DELIVERY OPTION </pattern>
+        <template><srai>deliveryoption</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>_ DELIVERY OPTION</pattern>
+        <template><srai>deliveryoption</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>DELIVERY OPTION *</pattern>
+        <template><srai>deliveryoption</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ DELIVERY OPTION *</pattern>
+    <template><srai>deliveryoption</srai></template>
+    </category>
+
+    
+    <category>
+        <pattern>DELIVERY GOODS OUT MALAYSIA </pattern>
+        <template><srai>goodsmalaysia</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ DELIVERY GOODS OUT MALAYSIA</pattern>
+        <template><srai>goodsmalaysia</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>DELIVERY GOODS OUT MALAYSIA *</pattern>
+        <template><srai>goodsmalaysia</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ DELIVERY GOODS OUT MALAYSIA *</pattern>
+    <template><srai>goodsmalaysia</srai></template>
+    </category>
+
+        
+        
+     <category>
+        <pattern>WRONG PRODUCT </pattern>
+        <template><srai>wrongproduct</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ WRONG PRODUCT</pattern>
+        <template><srai>wrongproduct</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>WRONG PRODUCT *</pattern>
+        <template><srai>wrongproduct</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ WRONG PRODUCT *</pattern>
+    <template><srai>wrongproduct</srai></template>
+    </category>
+
+
+ <category>
+        <pattern>TRACK MY ORDER </pattern>
+        <template><srai>trackmyorder</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ TRACK MY ORDER</pattern>
+        <template><srai>trackmyorder</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>TRACK MY ORDER *</pattern>
+        <template><srai>trackmyorder</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ TRACK MY ORDER *</pattern>
+    <template><srai>trackmyorder</srai></template>
+    </category>
+
+
+
+ <category>
+        <pattern>SHIP FROM </pattern>
+        <template><srai>shipfrom</srai></template>
+    </category>
+    
+        <category>
+        <pattern>_ SHIP FROM</pattern>
+        <template><srai>shipfrom</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>SHIP FROM *</pattern>
+        <template><srai>shipfrom</srai></template>
+    </category>
+    
+    <category>
+    <pattern>_ SHIP FROM *</pattern>
+    <template><srai>shipfrom</srai></template>
+    </category>
+
+
+
+
+
+
 <!--Answer of delivery -->
   
   <category>
@@ -83,6 +223,11 @@
           </button>
         </template>
     </category>
+
+<category><pattern>underscore DELIVERY GOODS OUT MALAYSIA</pattern><template><srai>GOODSMALAYSIA</srai></template></category>
+<category><pattern>DELIVERY GOODS OUT MALAYSIA star</pattern><template><srai>GOODSMALAYSIA</srai></template></category>
+<category><pattern>underscore DELIVERY GOODS OUT MALAYSIA star</pattern><template><srai>GOODSMALAYSIA</srai></template></category>
+
 	
 	<category>
 	    <pattern>wrongproduct</pattern>
