@@ -9,8 +9,18 @@
         <li>I don't understand !</li>
         <li>Sorry, I don't understand. Let's try somethings else.</li>
         </random>
+        <button>
+            <text>Back to main me</text>
+            <postback>mainmenu</postback>
+        </button>
     </template>
+    
+    
+
+    
   </category>
+
+
 
 
 

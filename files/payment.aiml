@@ -12,23 +12,27 @@
 	        <button>
 	        <text>What payment methods can the system support?</text>
 	        <postback>paymentmethods</postback>
+	        <delay>3</delay>
         </button>
         
          <button>
 	        <text>How do I use my voucher code?</text>
 	        <postback>voucher</postback>
+	       <delay>3</delay>
         </button>
 	  
         <button>
             <text>Are all products inclusive of taxes and SST?</text>
             <postback>taxes</postback>
+            <delay>3</delay>
         </button>
      <button>
          <text>Back to main menu</text>
-         <postback>MAINMENU</postback>
+         <postback>mainmenu</postback>
+         <delay>3</delay>
      </button>
 	 </card>
-
+   <delay>3</delay>
 </carousel> </template>
 </category>
     

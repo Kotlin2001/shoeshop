@@ -10,42 +10,50 @@
         <image>https://jungleworks.com/wp-content/uploads/2021/08/Online_Shoping_29-1024x819.jpg</image>
             <title>Delivery</title>
         <subtitle>Here is the frequently asked question about Delivery</subtitle>
+	  
 	    <button>
 	        <text>Why I can't change my delivery address?</text>
 	        <postback>changeaddress</postback>
+	        <delay>3</delay>
         </button>
         
          <button>
 	        <text>What are the delivery options?</text>
 	        <postback>deliveryoption</postback>
+	        <delay>3</delay>
         </button>
 	  
         <button>
             <text>Can I deliver goods out of Malaysia?</text>
             <postback>goodsmalaysia</postback>
+          <delay>3</delay>
         </button>
 
          <button>
              <text>What should I do if I received the wrong product(s)?</text>
              <postback>wrongproduct</postback>
+             <delay>3</delay>
          </button>
          
          <button>
              <text>Can I track my order?</text>
              <postback>trackmyorder</postback>
+             <delay>3</delay>
          </button>
  
          
          <button>
              <text>Where do you ship from?</text>
              <postback>shipfrom</postback>
+             <delay>3</delay>
          </button>
      <button>
          <text>Back to main menu</text>
          <postback>mainmenu</postback>
+         <delay>3</delay>
      </button>
      </card>
-
+   <delay>3</delay>
 </carousel>
      </template> 
         

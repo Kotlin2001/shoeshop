@@ -14,37 +14,43 @@
         <button>
             <text>How do refund work for cancelled order?</text>
             <postback>refundwork</postback>
+            <delay>3</delay>
         </button>       
         
         <button>
             <text>When will I be refunded?</text>
             <postback>whenrefund</postback>
+            <delay>3</delay>
         </button>     
         
         <button>
             <text>How long will the refund take?</text>
             <postback>howlongrefund</postback>
+            <delay>3</delay>
         </button>
         
          <button>
             <text>Will you refund my delivery charges?</text>
             <postback>refunddeliverycharges</postback>
+          <delay>3</delay>
         </button>
         
         
          <button>
             <text>Can I request for a refund for item(s) bought in-store?</text>
             <postback>refundinstore</postback>
+            <delay>3</delay>
         </button>
         
         
     <button>
          <text>Back to main menu</text>
-         <postback>MAINMENU</postback>
+         <postback>mainmenu</postback>
+        <delay>3</delay>
      </button>
      
     </card>
-
+   <delay>3</delay>
 </carousel></template>
 </category>
 

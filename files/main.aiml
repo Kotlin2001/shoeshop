@@ -42,7 +42,7 @@
 </category>
 
 <category>
-    <pattern>MAINMENU</pattern>
+    <pattern>mainmenu</pattern>
     <template>
        This the main menu for the JAD Sport chat bots
     <button>
@@ -69,7 +69,7 @@
         <text>Return</text>
         <postback>return</postback>
     </button> 
-    
+       <delay>3</delay>
     </template>
 </category>
 

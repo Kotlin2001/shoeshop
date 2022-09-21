@@ -10,51 +10,63 @@
         <image>https://thumbs.dreamstime.com/b/set-popular-sportswear-manufactures-logos-vinnytsia-ukraine-may-adidas-nike-puma-reebok-mizuno-fila-under-armour-jordan-kappa-220449988.jpg</image>
             <title>Product</title>
         <subtitle>Here is the frequently asked question about Product</subtitle>
- <button>
+        
+         <button>
 	        <text>What are the brands for sale?</text>
 	        <postback>brandsforsale</postback>
+	             <delay>3</delay>
         </button>
 
         <button>
 	        <text>Do you sell Converse brand shoes?</text>
 	        <postback>converse</postback>
+	        <delay>3</delay>
         </button>
 
          <button>
              <text>I want to check stock online</text>
              <postback>stockonline</postback>
+             <delay>3</delay>
          </button>
 
 
          <button>
              <text>When will I receive my pre-order?</text>
              <postback>preorder</postback>
+             <delay>3</delay>
          </button>
 
          <button>
              <text>How can I find product launch information?</text>
              <postback>productinfo</postback>
+             <delay>3</delay>
          </button>
 
          <button>
              <text>Where can I find your size guide and care instructions?</text>
              <postback>sizeguide</postback>
+             <delay>3</delay>
          </button>
 
          <button>
              <text>Can you tell me if you’re getting an item back in stock?</text>
              <postback>tellstock</postback>
+             <delay>3</delay>
          </button>
 
         <button>
              <text>Can I check if stores near me have the item I'm looking for?</text>
              <postback>storesnear</postback>
+             <delay>3</delay>
          </button>
 
      <button>
          <text>Back to main menu</text>
-         <postback>MAINMENU</postback>
+         <postback>mainmenu</postback>
+         <delay>3</delay>
      </button>
+     
+   
  </card>
 
 </carousel> </template> 
